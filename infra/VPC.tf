@@ -17,4 +17,6 @@ module "vpc" {
   enable_dns_support   = true
 
   enable_nat_gateway = true
+
+  public_subnet_map_public_ip_on_launch = true 
 }
